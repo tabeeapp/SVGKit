@@ -170,7 +170,6 @@
 		}
 	}
 	
-	SVGKitLogVerbose(@"Normalized prefixes:\n%@", normalizedPrefixesByNamespace );
 	return normalizedPrefixesByNamespace;
 }
 

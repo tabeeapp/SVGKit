@@ -173,7 +173,7 @@
                                                                                isRelative:FALSE];
                         lastCurve = SVGCurveZero;
 					} else  {
-                        SVGKitLogWarn(@"unsupported command %@", command);
+                        //SVGKitLogWarn(@"unsupported command %@", command);
                     }
                 }
             }

@@ -105,7 +105,6 @@
 		
 		accum[accumIdx++] = c;
 		if (accumIdx >= MAX_ACCUM) {
-			SVGKitLogWarn(@"Buffer ovverun while parsing style sheet - skipping");
 			return dict;
 		}
 	}
